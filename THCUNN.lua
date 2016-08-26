@@ -48,10 +48,11 @@ local function extract_function_names(s)
    return t
 end
 
+
 -- build function table
 local function_names = extract_function_names(THCUNN_h)
 
 THNN.kernels['torch.CudaTensor'] = THNN.bind(THCUNN.C, function_names, 'Cuda', THCUNN.getState)
-torch.getmetatable('torch.CudaTensor').THNN = THNN.kernels['torch.CudaTensor']
+torch.getmetatable('torch.CudaTensor').THCUDAMOD = THNN.kernels['torch.CudaTensor']
 
 return THCUNN
