@@ -1,0 +1,642 @@
+The system is: Linux - 2.6.32-573.8.1.el6.centos.plus.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_31773/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31773.dir/build.make CMakeFiles/cmTC_31773.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31773.dir/testCCompiler.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc     -o CMakeFiles/cmTC_31773.dir/testCCompiler.c.o   -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_31773
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31773.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc       CMakeFiles/cmTC_31773.dir/testCCompiler.c.o  -o cmTC_31773 -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_21b27/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21b27.dir/build.make CMakeFiles/cmTC_21b27.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc     -o CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o   -c /n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_21b27
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b27.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc      -v CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o  -o cmTC_21b27 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc
+COLLECT_LTO_WRAPPER=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-redhat-linux-gnu
+Configured with: ../configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --program-prefix= --prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --exec-prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --bindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin --sbindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/sbin --sysconfdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/etc --datadir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share --includedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/include --libdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 --libexecdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec --localstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var --sharedstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var/lib --mandir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/man --infodir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/inf
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/
+LIBRARY_PATH=/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/:/usr/local/cuda-7.5/lib64/:/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21b27' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_21b27 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64 -L/usr/local/cuda-7.5/lib64 -L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_21b27/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_21b27.dir/build.make CMakeFiles/cmTC_21b27.dir/build]
+  ignore line: [gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc     -o CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o   -c /n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_21b27]
+  ignore line: [/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b27.dir/link.txt --verbose=1]
+  ignore line: [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc      -v CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o  -o cmTC_21b27 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux-gnu]
+  ignore line: [Configured with: ../configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --program-prefix= --prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --exec-prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --bindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin --sbindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/sbin --sysconfdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/etc --datadir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share --includedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/include --libdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 --libexecdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec --localstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var --sharedstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var/lib --mandir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/man --infodir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/inf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/:/usr/local/cuda-7.5/lib64/:/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21b27' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_21b27 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64 -L/usr/local/cuda-7.5/lib64 -L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_21b27] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+    arg [-L/usr/local/cuda-7.5/lib64] ==> dir [/usr/local/cuda-7.5/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTC_21b27.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> [/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> [/n/rush_lab/sw/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+  collapse library dir [/usr/local/cuda-7.5/lib64] ==> [/usr/local/cuda-7.5/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> [/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> [/n/rush_lab/sw/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  implicit libs: [c]
+  implicit dirs: [/n/rush_lab/sw/lib64;/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2;/lib64;/usr/lib64;/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib;/n/rush_lab/sw/lib;/usr/local/cuda-7.5/lib64;/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib;/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_92057/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_92057.dir/build.make CMakeFiles/cmTC_92057.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92057.dir/feature_tests.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc    -std=c11 -o CMakeFiles/cmTC_92057.dir/feature_tests.c.o   -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_92057
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92057.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc       CMakeFiles/cmTC_92057.dir/feature_tests.c.o  -o cmTC_92057 -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f467a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f467a.dir/build.make CMakeFiles/cmTC_f467a.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f467a.dir/feature_tests.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc    -std=c99 -o CMakeFiles/cmTC_f467a.dir/feature_tests.c.o   -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f467a
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f467a.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc       CMakeFiles/cmTC_f467a.dir/feature_tests.c.o  -o cmTC_f467a -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7343d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7343d.dir/build.make CMakeFiles/cmTC_7343d.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7343d.dir/feature_tests.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc    -std=c90 -o CMakeFiles/cmTC_7343d.dir/feature_tests.c.o   -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7343d
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7343d.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc       CMakeFiles/cmTC_7343d.dir/feature_tests.c.o  -o cmTC_7343d -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a7b3b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a7b3b.dir/build.make CMakeFiles/cmTC_a7b3b.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7b3b.dir/testCXXCompiler.cxx.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++      -o CMakeFiles/cmTC_a7b3b.dir/testCXXCompiler.cxx.o -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a7b3b
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b3b.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++        CMakeFiles/cmTC_a7b3b.dir/testCXXCompiler.cxx.o  -o cmTC_a7b3b -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_25643/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_25643.dir/build.make CMakeFiles/cmTC_25643.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++      -o CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o -c /n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_25643
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25643.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++       -v CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25643 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++
+COLLECT_LTO_WRAPPER=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-redhat-linux-gnu
+Configured with: ../configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --program-prefix= --prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --exec-prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --bindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin --sbindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/sbin --sysconfdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/etc --datadir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share --includedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/include --libdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 --libexecdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec --localstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var --sharedstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var/lib --mandir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/man --infodir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/inf
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/
+LIBRARY_PATH=/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/:/usr/local/cuda-7.5/lib64/:/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25643' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25643 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64 -L/usr/local/cuda-7.5/lib64 -L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_25643/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_25643.dir/build.make CMakeFiles/cmTC_25643.dir/build]
+  ignore line: [gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++      -o CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o -c /n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_25643]
+  ignore line: [/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25643.dir/link.txt --verbose=1]
+  ignore line: [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++       -v CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25643 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux-gnu]
+  ignore line: [Configured with: ../configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --target=x86_64-redhat-linux-gnu --program-prefix= --prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --exec-prefix=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01 --bindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin --sbindir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/sbin --sysconfdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/etc --datadir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share --includedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/include --libdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 --libexecdir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec --localstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var --sharedstatedir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/var/lib --mandir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/man --infodir=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/share/inf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/:/usr/local/cuda-7.5/lib64/:/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib/:/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/:/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25643' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25643 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64 -L/usr/local/cuda-7.5/lib64 -L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64 -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64 -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib -L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib -L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../.. CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/libexec/gcc/x86_64-redhat-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_25643] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+    arg [-L/usr/local/cuda-7.5/lib64] ==> dir [/usr/local/cuda-7.5/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib]
+    arg [-L/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..] ==> dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTC_25643.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib/../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib/../lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../../../lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> [/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> [/n/rush_lab/sw/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64]
+  collapse library dir [/usr/local/cuda-7.5/lib64] ==> [/usr/local/cuda-7.5/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib64] ==> [/n/rush_lab/sw/lib64]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/x86_64-unknown-linux-gnu/lib] ==> [/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/rcstorenfs02/ifs/rc_labs/rush_lab/sw/lib] ==> [/n/rush_lab/sw/lib]
+  collapse library dir [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2/../../..] ==> [/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/n/rush_lab/sw/lib64;/n/sw/fasrcsw/apps/Core/cudnn/7.0-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/mpfr/3.1.2-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/mpc/1.0.1-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gmp/6.0.0-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib64/gcc/x86_64-redhat-linux-gnu/4.8.2;/lib64;/usr/lib64;/n/rush_lab/sw/x86_64-unknown-linux-gnu/lib;/n/rush_lab/sw/lib;/usr/local/cuda-7.5/lib64;/n/sw/fasrcsw/apps/Comp/gcc/4.8.2-fasrc01/OpenBLAS/0.2.14-fasrc01/lib;/n/sw/fasrcsw/apps/Core/LuaJIT/2.0.4-fasrc01/lib;/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8f1a1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8f1a1.dir/build.make CMakeFiles/cmTC_8f1a1.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f1a1.dir/feature_tests.cxx.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++     -std=c++1y -o CMakeFiles/cmTC_8f1a1.dir/feature_tests.cxx.o -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8f1a1
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1a1.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++        CMakeFiles/cmTC_8f1a1.dir/feature_tests.cxx.o  -o cmTC_8f1a1 -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_56dff/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_56dff.dir/build.make CMakeFiles/cmTC_56dff.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56dff.dir/feature_tests.cxx.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++     -std=c++11 -o CMakeFiles/cmTC_56dff.dir/feature_tests.cxx.o -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56dff
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56dff.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++        CMakeFiles/cmTC_56dff.dir/feature_tests.cxx.o  -o cmTC_56dff -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_31359/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31359.dir/build.make CMakeFiles/cmTC_31359.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31359.dir/feature_tests.cxx.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++     -std=c++98 -o CMakeFiles/cmTC_31359.dir/feature_tests.cxx.o -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_31359
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31359.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/g++        CMakeFiles/cmTC_31359.dir/feature_tests.cxx.o  -o cmTC_31359 -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9be8f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9be8f.dir/build.make CMakeFiles/cmTC_9be8f.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9be8f.dir/CheckIncludeFile.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc    -fPIC    -o CMakeFiles/cmTC_9be8f.dir/CheckIncludeFile.c.o   -c /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9be8f
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9be8f.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc  -fPIC     CMakeFiles/cmTC_9be8f.dir/CheckIncludeFile.c.o  -o cmTC_9be8f -rdynamic 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /n/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b6e9d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b6e9d.dir/build.make CMakeFiles/cmTC_b6e9d.dir/build
+gmake[1]: Entering directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e9d.dir/CheckFunctionExists.c.o
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b6e9d.dir/CheckFunctionExists.c.o   -c /n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6e9d
+/n/sw/fasrcsw/apps/Core/cmake/3.5.2-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e9d.dir/link.txt --verbose=1
+/n/sw/fasrcsw/apps/Core/gcc/4.8.2-fasrc01/bin/gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b6e9d.dir/CheckFunctionExists.c.o  -o cmTC_b6e9d -rdynamic -lpthread 
+gmake[1]: Leaving directory `/net/rcstorenfs02/ifs/rc_labs/rush_lab/users/yoonkim/cuda-mod/build/CMakeFiles/CMakeTmp'
+
+

@@ -3,6 +3,8 @@
 *.lo
 *.o
 *.obj
+*.lua~
+*.cu~
 
 # Precompiled Headers
 *.gch

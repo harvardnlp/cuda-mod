@@ -1,4 +1,4 @@
-#include <THC/THC.h>
+return [[#include <THC/THC.h>
 #include <THC/THCApply.cuh>
 
 #define THIndexTensor THCudaLongTensor
@@ -25,3 +25,4 @@ TH_API void THNN_CudaSignedLogSpace_add(
 TH_API void THNN_CudaSignedLogSpace_add_inplace(
     THCState *state, THCudaTensor *input1, THCudaTensor *input2,
     THCudaTensor *tensor2_sign);
+]]
