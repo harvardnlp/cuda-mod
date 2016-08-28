@@ -149,6 +149,25 @@ TH_API void THNN_CudaSignedLogSpace_add_inplace(
 }
 
 
+
+struct fixnan_functor
+{
+    __device__ void operator()(float* output) const
+    {
+      if (*output != *output) {
+          *output = -1e10;
+      }
+    }
+};
+
+
+TH_API void THNN_CudaFixNaN(
+    THCState *state, THCudaTensor *input) {
+    THC_pointwiseApply1(state, input, fixnan_functor());
+}
+
+
+
 // void THNN_CudaLogSpace_abs(THCState *state, THCudaTensor *output,
 //                            THCudaTensor *input)
 // {

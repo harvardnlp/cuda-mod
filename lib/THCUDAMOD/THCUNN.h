@@ -25,3 +25,12 @@ TH_API void THNN_CudaSignedLogSpace_add(
 TH_API void THNN_CudaSignedLogSpace_add_inplace(
     THCState *state, THCudaTensor *input1, THCudaTensor *input2,
     THCudaTensor *tensor2_sign);
+
+
+
+TH_API void THNN_CudaLogSpace_sum(
+    THCState *state, THCudaTensor *output,
+    THCudaTensor *input);
+
+TH_API void THNN_CudaFixNaN(
+    THCState *state, THCudaTensor *input);
