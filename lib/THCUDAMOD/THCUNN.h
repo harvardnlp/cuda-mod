@@ -24,7 +24,7 @@ TH_API void THNN_CudaSignedLogSpace_add(
 
 TH_API void THNN_CudaSignedLogSpace_add_inplace(
     THCState *state, THCudaTensor *input1, THCudaTensor *input2,
-    THCudaTensor *tensor2_sign);
+    THCudaTensor *tensor1_sign, THCudaTensor *tensor2_sign);
 
 
 
