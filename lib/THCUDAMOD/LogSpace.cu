@@ -39,28 +39,6 @@ TH_API void THNN_CudaLogSpace_add_inplace(
     THC_pointwiseApply2(state, input1, input2, logadd_inplace_functor());
 }
 
-struct signedAdd_inplace_functor
-{
-    __device__ void operator()(float* input1, const float* input2) const
-  {
-      // Get back the signs
-      float t1_sign = (((*reinterpret_cast<const unsigned int*>(input1)) >> 0) & 1) ? 1.0 : -1.0;
-      float t2_sign = (((*reinterpret_cast<const unsigned int*>(input2)) >> 0) & 1) ? 1.0 : -1.0;
-
-
-      // Do the add.
-      float mx = max(*input1, *input2);
-      float mn = min(*input1, *input2);
-      float mn_mx = mn - mx;
-      float sign = (*input1 > *input2) ? t1_sign : t2_sign;      
-      *input1 = log1p(exp(mn_mx) * t1_sign * t2_sign) + mx;
-
-      // Change sign bit of output.
-      unsigned int* inta = reinterpret_cast<unsigned int*>(input1);
-      *inta = *inta ^ ((-((sign) == 1.0) ^ (*inta)) & (1 << 0));
-  }
-};
-
 struct pointwisemod_functor
 {
     __device__ void operator()(float* output, const float* input) const
@@ -72,6 +50,7 @@ struct pointwisemod_functor
 
   }
 };
+
 
 
 struct signedAdd_functor
@@ -88,7 +67,6 @@ struct signedAdd_functor
       float mn = min(*input1, *input2);
       float mn_mx = mn - mx;
       *output = log1p(exp(mn_mx) * t1_sign * t2_sign) + mx;
-
 
       // Change sign bit of output.
       float sign = (*input1 > *input2) ? t1_sign : t2_sign;
@@ -125,6 +103,7 @@ TH_API void THNN_CudaGetSign(
     THC_pointwiseApply2(state, output_sign, output, getsign_functor());
 }
 
+
 TH_API void THNN_CudaSignedLogSpace_add(
     THCState *state, THCudaTensor *output, THCudaTensor *output_sign,
     THCudaTensor *input1, THCudaTensor *input2,
@@ -138,17 +117,34 @@ TH_API void THNN_CudaSignedLogSpace_add(
     THC_pointwiseApply2(state, output_sign, output, getsign_functor());
 }
 
-TH_API void THNN_CudaSignedLogSpace_add_inplace(
-    THCState *state, THCudaTensor *input1, THCudaTensor *input2,
-    THCudaTensor *tensor1_sign, THCudaTensor *tensor2_sign) {
-    THC_pointwiseApply2(state, input1, tensor1_sign, pointwisemod_functor());
-    THC_pointwiseApply2(state, input2, tensor2_sign, pointwisemod_functor());    
-    THC_pointwiseApply2(state, input1, input2, signedAdd_inplace_functor());
-    THC_pointwiseApply2(state, tensor1_sign, input1, getsign_functor());
-    THC_pointwiseApply2(state, tensor2_sign, input2, getsign_functor());        
-}
+struct signedAdd_inplace_functor
+{
+    __device__ void operator()(float* input1, const float* input2, const float* t1t2_sign_prod) const
+  {
+      float mx = max(*input1, *input2);
+      float mn = min(*input1, *input2);
+      float mn_mx = mn - mx;
+      *input1 = log1p(exp(mn_mx) * *t1t2_sign_prod) + mx;
+  }
+};
 
+struct prod_functor
+{
+    __device__ void operator()(float* output, const float* input1, const float* input2) const
+  {
+      *output = *input1 * *input2;      
+  }
+};
 
+struct ge_functor
+{
+    __device__ void operator()(float* tensor1_sign, const float* ge, const float* tensor2_sign) const
+  {
+      if (*ge < 1) {
+          *tensor1_sign = *tensor2_sign;
+      }      
+  }
+};
 
 struct fixnan_functor
 {
@@ -159,6 +155,18 @@ struct fixnan_functor
       }
     }
 };
+
+TH_API void THNN_CudaSignedLogSpace_add_inplace(
+    THCState *state, THCudaTensor *input1, THCudaTensor *input2,
+    THCudaTensor *tensor1_sign, THCudaTensor *tensor2_sign,
+    THCudaTensor *t1t2_sign_prod, THCudaTensor *ge) {
+    THC_pointwiseApply3(state, t1t2_sign_prod, tensor1_sign, tensor2_sign, prod_functor());
+    THC_pointwiseApply3(state, tensor1_sign, ge, tensor2_sign, ge_functor());
+    THC_pointwiseApply3(state, input1, input2, t1t2_sign_prod, signedAdd_inplace_functor());
+    THC_pointwiseApply1(state, input1, fixnan_functor());    
+}
+
+
 
 
 TH_API void THNN_CudaFixNaN(
