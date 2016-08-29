@@ -1,4 +1,0 @@
-/n/home01/yoonkim/torch/install/lib/luarocks/rocks/cuda-mod/1.0-0/lua/cuda-mod/init.lua
-/n/home01/yoonkim/torch/install/lib/luarocks/rocks/cuda-mod/1.0-0/lua/cuda-mod/THCUNN.lua
-/n/home01/yoonkim/torch/install/lib/luarocks/rocks/cuda-mod/1.0-0/lua/cuda-mod/THCUNN_h.lua
-/n/home01/yoonkim/torch/install/lib/luarocks/rocks/cuda-mod/1.0-0/lib/libTHCUDAMOD.so
