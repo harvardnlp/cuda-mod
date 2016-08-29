@@ -125,6 +125,10 @@ struct signedAdd_inplace_functor
       float mn = min(*input1, *input2);
       float mn_mx = mn - mx;
       *input1 = log1p(exp(mn_mx) * *t1t2_sign_prod) + mx;
+      if (*input1 != *input1) {
+          *input1 = -1e10;
+      }
+      
   }
 };
 
@@ -163,7 +167,6 @@ TH_API void THNN_CudaSignedLogSpace_add_inplace(
     THC_pointwiseApply3(state, t1t2_sign_prod, tensor1_sign, tensor2_sign, prod_functor());
     THC_pointwiseApply3(state, tensor1_sign, ge, tensor2_sign, ge_functor());
     THC_pointwiseApply3(state, input1, input2, t1t2_sign_prod, signedAdd_inplace_functor());
-    THC_pointwiseApply1(state, input1, fixnan_functor());    
 }
 
 
