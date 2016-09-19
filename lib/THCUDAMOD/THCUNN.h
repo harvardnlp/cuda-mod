@@ -4,6 +4,8 @@
 #define THIndexTensor THCudaLongTensor
 #define THIndexTensor_(NAME) THCudaLongTensor_ ## NAME
 
+#define CUDART_INF_F __int_as_float(0x7f800000)
+
 TH_API void THNN_CudaLogSpace_add(
     THCState *state, THCudaTensor *output,
     THCudaTensor *input1, THCudaTensor *input2);

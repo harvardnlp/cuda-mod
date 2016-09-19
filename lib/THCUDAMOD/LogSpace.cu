@@ -155,7 +155,7 @@ struct fixnan_functor
     __device__ void operator()(float* output) const
     {
       if (*output != *output) {
-          *output = -1e10;
+          *output = -1 * CUDART_INF_F;
       }
     }
 };
