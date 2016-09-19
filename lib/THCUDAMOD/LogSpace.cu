@@ -86,7 +86,7 @@ struct getsign_functor
 
       // This is the nan trick.
       if (*output != *output) {
-          *output = -1e10;
+          *output = -CUDART_INF_F;
       }
   }
 };
@@ -126,7 +126,7 @@ struct signedAdd_inplace_functor
       float mn_mx = mn - mx;
       *input1 = log1p(exp(mn_mx) * *t1t2_sign_prod) + mx;
       if (*input1 != *input1) {
-          *input1 = -1e10;
+          *input1 = -CUDART_INF_F;
       }
       
   }
@@ -228,7 +228,7 @@ TH_API void THNN_CudaFixNaN(
 //   {
 //       *output = log(fabs(*input)) + max_;
 //       if (*output != *output)
-//           *output = -1e10;
+//           *output = -CUDART_INF_F;
 //   }
 // };
 
@@ -303,7 +303,7 @@ TH_API void THNN_CudaFixNaN(
 //       unsigned int* inta = reinterpret_cast<unsigned int*>(input);
 //       *inta &= ~(1 << 0);
 //       if (*output != *output) {
-//           *output = -1e10;
+//           *output = -CUDART_INF_F;
 //       }
 //   }
 // };
