@@ -180,7 +180,7 @@ cunn_LogSum_kernel(float *output, float *input, int elements)
 
     // This is the nan trick.
   if (logsum_k != logsum_k) {
-      logsum_k = -1e10;
+      logsum_k = -CUDART_INF_F;
   }
 
   output[blockIdx.x] = logsum_k;
