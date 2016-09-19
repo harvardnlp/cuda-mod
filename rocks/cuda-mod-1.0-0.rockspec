@@ -2,8 +2,8 @@ package = "cuda-mod"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/harvardnlp/cuda-mod.git",
-   tag = "1.0-0"
+   url = "git+http://github.com/harvardnlp/cuda-mod.git",
+   tag = "master"
 }
 
 description = {
