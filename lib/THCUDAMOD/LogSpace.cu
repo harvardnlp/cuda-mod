@@ -154,8 +154,8 @@ struct fixnan_functor
 {
     __device__ void operator()(float* output) const
     {
-      if (*output != *output) {
-          *output = -1 * CUDART_INF_F;
+      if (isnan(*output)) { 	
+          *output = -CUDART_INF_F;
       }
     }
 };
